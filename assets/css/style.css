@@ -2,26 +2,18 @@ body {
 	background-image: url("../images/background.png");
 }
 
+#logo {
+	height: 250px;
+}
+
 .container {
 	text-align: center;
 	color: #ffffff;
-	margin-top: 50px;
-	padding-bottom: 25px;
-	min-height: 500px;
 }
 
 h1 {
 	padding: 20px;
 	font-size: 64px;
-}
-
-label {
-	font-weight: normal;
-	margin: 0px 5px 0px 5px;
-}
-
-input[type="radio"]{
-  margin: 0 5px 0 0;
 }
 
 p {
@@ -48,7 +40,7 @@ p {
 	border: 2px solid #777777;
 }
 
-#done {
+#restart {
 	background-color: transparent;
 	border: 1px solid #ffffff;
 	font-size: 25px;
